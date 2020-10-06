@@ -5,7 +5,7 @@ import './style.css'
 function Home() {
     return (
         <div className="container">
-            <img src={`../images/banner.png`}/>
+         
         </div>
     )
 }
