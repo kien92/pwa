@@ -1,0 +1,64 @@
+.parent{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color:#0b0c2a;
+  flex-direction: column
+}
+.header{
+  width: 100vw;
+  height: 10vh;
+  background-color:#070720;
+  flex-direction: row;
+  display: flex;
+}
+.menu{
+  flex: 0 0 66.666667%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menu-ul{
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  flex-direction: row;
+}
+.menu-li{
+  width: 25%;
+  list-style: none;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+a.nav_link:link,a.nav_link_submenu{
+  text-decoration: none;
+}
+a.nav_link,a.nav_link_submenu{
+ color: white;
+ font-weight: 700;
+}
+
+.submenu{
+  display: none;
+  position: absolute;
+  left: 180px;
+  background: #111;
+  top: 0;
+  width: 180px;
+}
+
+
+a.nav_link:hover,a.nav_link_submenu:hover {
+  cursor: pointer;
+  color: red;
+}
+.content{
+  width: 90vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
