@@ -26,7 +26,7 @@ class App extends React.Component {
                   <NavLink className="nav_link" activeStyle={{ color: 'red' }} to="/home">Home</NavLink ></li>
                 <li className="menu-li" >
                   <NavLink className="nav_link_submenu" activeStyle={{ color: 'red' }} to="/categories">Categories</NavLink >
-                  <ul class='submenu'>
+                  <ul className='submenu'>
                     <li><a href="#" title="Sub Menu">Sub Menu</a></li>
                     <li><a href="#" title="Sub Menu">Sub Menu 2</a></li>
                     <li><a href="#" title="Sub Menu">Sub Menu 3</a></li>

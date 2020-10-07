@@ -5,7 +5,7 @@ import './style.css'
 function Home() {
     return (
         <div className="container">
-         
+         <link rel="manifest" href="%PUBLIC_URL%/manifest.json"></link>
         </div>
     )
 }
